@@ -1,0 +1,15 @@
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.exe
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.deps.json
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.runtimeconfig.json
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.runtimeconfig.dev.json
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.dll
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\bin\Debug\netcoreapp3.1\backupAppDesktop.pdb
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.csprojAssemblyReference.cache
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.Form1.resources
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.csproj.GenerateResource.cache
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.AssemblyInfoInputs.cache
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.AssemblyInfo.cs
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.dll
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.pdb
+C:\Users\Lhorenzo\Source\Repos\backupAppDesktop\obj\Debug\netcoreapp3.1\backupAppDesktop.genruntimeconfig.cache
