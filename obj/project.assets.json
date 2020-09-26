@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Lhorenzo\\.nuget\\packages\\": {}
+    "C:\\Users\\ragde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lhorenzo\\Source\\Repos\\backupAppDesktop\\backupAppDesktop.csproj",
+      "projectUniqueName": "C:\\Users\\ragde\\source\\repos\\backupAppDesktop\\backupAppDesktop.csproj",
       "projectName": "backupAppDesktop",
-      "projectPath": "C:\\Users\\Lhorenzo\\Source\\Repos\\backupAppDesktop\\backupAppDesktop.csproj",
-      "packagesPath": "C:\\Users\\Lhorenzo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lhorenzo\\Source\\Repos\\backupAppDesktop\\obj\\",
+      "projectPath": "C:\\Users\\ragde\\source\\repos\\backupAppDesktop\\backupAppDesktop.csproj",
+      "packagesPath": "C:\\Users\\ragde\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ragde\\source\\repos\\backupAppDesktop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lhorenzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ragde\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

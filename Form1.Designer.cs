@@ -28,24 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.seleccionar = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.sync = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             this.SuspendLayout();
             // 
-            // button1
+            // seleccionar
             // 
-            this.button1.Location = new System.Drawing.Point(45, 52);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Seleccionar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.seleccionar.Location = new System.Drawing.Point(45, 52);
+            this.seleccionar.Name = "seleccionar";
+            this.seleccionar.Size = new System.Drawing.Size(75, 23);
+            this.seleccionar.TabIndex = 0;
+            this.seleccionar.Text = "Seleccionar";
+            this.seleccionar.UseVisualStyleBackColor = true;
+            this.seleccionar.Click += new System.EventHandler(this.seleccionar_Click);
             // 
             // button2
             // 
@@ -56,14 +59,15 @@
             this.button2.Text = "Seleccionar";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // sync
             // 
-            this.button3.Location = new System.Drawing.Point(164, 399);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Sincronizar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.sync.Location = new System.Drawing.Point(164, 399);
+            this.sync.Name = "sync";
+            this.sync.Size = new System.Drawing.Size(75, 23);
+            this.sync.TabIndex = 2;
+            this.sync.Text = "Sincronizar";
+            this.sync.UseVisualStyleBackColor = true;
+            this.sync.Click += new System.EventHandler(this.sync_Click);
             // 
             // button4
             // 
@@ -108,6 +112,15 @@
             this.label2.TabIndex = 8;
             this.label2.Text = "Destino";
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // folderBrowserDialog1
+            // 
+            this.folderBrowserDialog1.Description = "Select the directory that you want to use as the default.";
+            this.folderBrowserDialog1.ShowNewFolderButton = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -118,9 +131,9 @@
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.sync);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.seleccionar);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -131,14 +144,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button seleccionar;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button sync;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialog1;
     }
 }
 

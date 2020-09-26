@@ -24,6 +24,22 @@ namespace backupAppDesktop
 
         }
 
-       
+        //Abrir dialogo para abrir archivo
+        private void sync_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void seleccionar_Click(object sender, EventArgs e)
+        {
+            //Muestra dialogo
+            DialogResult result = folderBrowserDialog1.ShowDialog();
+
+            if (result == DialogResult.OK)
+            {
+                var folderName = folderBrowserDialog1.SelectedPath;
+                MessageBox.Show(folderName);
+            }
+        }
     }
 }
